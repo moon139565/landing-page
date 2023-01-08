@@ -1,0 +1,219 @@
+/* goole font */
+@import url('https://fonts.googleapis.com/css2?family=Epilogue:wght@400;700;800&display=swap');
+
+/*
+ bg color:   EF6C57 
+ text color: 391400
+ heading color: 391400
+ sub heading color: EF6D58
+*/
+
+body{
+    font-family: 'Epilogue', sans-serif;
+    font-weight: 400;
+    background-color: #FDF0E9;
+}
+.section-heading h5{
+    font-size: 16px;
+    line-height: 32px;
+    /* text-align: center; */
+    letter-spacing: 3px;
+    text-transform: uppercase;
+    color: #EF6D58;
+    }
+.section-heading h2{
+        font-weight: 800;
+        font-size: 42px;
+        line-height: 50px;
+        letter-spacing: -1px;
+        color: #391400;
+    }
+.section-heading p{
+    color: #ffffffa3;
+}
+
+/* navber code start */
+.header-area{
+    background-color: #1E1E1E;
+    padding: 15px 0;
+}
+.header-area .navbar{
+    padding: 0;
+}
+.header-area .nav-item{
+    margin: 0 30px;
+}
+.header-area .navbar-nav .nav-item:last-child{
+    margin-right: 0;
+}
+.header-area .navbar-nav .nav-item:last-child a{
+    border: 1px solid #ffffffa3;
+    border-radius: 6px;
+    padding: 10px 25px;
+}
+.header-area .nav-link,
+.header-area .nav-link.active{
+    color: #fff;
+}
+
+/* hero area code start */
+
+.hero-area{
+    background-color: #1E1E1E;
+    min-height: calc(100vh - 88px);
+    padding: 100px 0;
+}
+.hero-text h5{
+font-size: 16px;
+line-height: 32px;
+letter-spacing: 3px;
+text-transform: uppercase;
+color: #EF6D58;
+}
+.hero-text h1{
+font-weight: 800;
+font-size: 62px;
+line-height: 70px;
+letter-spacing: -2px;
+color: #FFFFFF;
+}
+.hero-text p{
+font-size: 16px;
+line-height: 32px;
+color: #ffffffa3;
+margin: 20px 0;
+}
+.hero-text a{
+display: inline-block;
+text-decoration: none;
+background-color: #EF6D58;
+padding: 15px 25px;
+border-radius: 6px;
+font-weight: 900;
+font-size: 14px;
+line-height: 14px;
+text-align: center;
+text-transform: uppercase;
+color: #FFFFFF;
+}
+
+/* service-area code start */
+.service-area{
+    padding: 85px 0;
+}
+.service-area .section-heading{
+    margin-bottom: 50px;
+}
+
+.single-service{
+    padding: 50px;
+    border: 1px solid #F3D1BF;
+}
+.service-one{
+    border-radius: 6px 0px 0px 6px;   
+}
+.service-two{
+    border-radius: 0px 6px 6px 0px;
+    border-left: 0;
+}
+.service-heading{
+    display: flex;
+    align-items: center;
+}
+.service-heading i{
+    font-size: 30px;
+    background-color: #EF6C57;
+    color: white;
+    height: 80px;
+    width: 80px;
+    line-height: 80px;
+    border-radius: 50%;
+    text-align: center;
+}
+.service-heading h3{
+    margin-left: 20px;
+    color: #391400;
+}
+.service-text p{
+    margin: 25px 0;
+    color: rgba(57, 20, 0, 0.64);
+}
+.service-text a{
+    display: inline-block;
+    padding-left: 60px;
+    padding-top: 12px;
+    position: relative;
+    text-decoration: none;
+    color: #391400;
+}
+.service-text a::after{
+    position: absolute;
+    content: "\2b";
+    height: 48px;
+    width: 48px;
+    background-color: #fff;
+    border: 1px solid #ffffffa4;
+    left: 0;
+    top: 0;
+    line-height: 48px;
+    text-align: center;
+    font-size: 30px;
+    color: #EF6C57;
+    border-radius: 50%;
+}
+
+
+
+/* contact-area code start */
+
+.contact-area{
+    padding: 85px 0;
+    background-color: #28293E;
+}
+.contact-form{
+    padding: 50px;
+    background-color: #fff;
+}
+.contact-form h3{
+    margin-bottom: 25px;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 32px;
+    color: #391400;
+}
+.contact-form button{
+    background-color: #EF6D58;
+    color: #fff;
+}
+.containt-text ul {
+    margin: 0;
+    padding: 0;
+}
+.containt-text ul li{
+    margin: 15px 0;
+}
+.containt-text ul li a{
+    color: #fff;
+    text-decoration: none;
+}
+.containt-text ul li i{
+    margin-right: 15px;
+    height: 48px;
+    width: 48px;
+    background-color: #EF6D58;
+    line-height: 48px;
+    text-align: center;
+    font-size: 18px;
+    color: #fff;
+    border-radius: 50%;
+}
+
+/* footer code start */
+
+.footer-area{
+    margin: 25px 0;
+}
+.footer-area p{
+    margin-bottom: 0;
+    color: #391400a3;
+}
