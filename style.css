@@ -184,6 +184,7 @@ color: #FFFFFF;
 .contact-form button{
     background-color: #EF6D58;
     color: #fff;
+    display: block;
 }
 .containt-text ul {
     margin: 0;
